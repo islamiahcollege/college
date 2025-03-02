@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playwrite+ES+Deco+Guides&family=Varela+Round&display=swap');
+
+:root {
+    --font1: "Varela Round", serif;
+    --font2: "Playwrite ES Deco Guides", serif;
+    --font3: "Outfit", serif;
+}
+
+.hero {
+    overflow-x: hidden;
+    font-family: var(--font3) !important;
+}
+
+.header,
+.category {
+    font-family: var(--font3) !important;
+}
+
+.section-subtitle {
+    font-family: var(--font1);
+    font-weight: bold;
+}
+
+.about-shape-1,
+.about-shape-2 {
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+.product-list,
+.section-title,
+.contact {
+    font-family: var(--font1);
+}
+
+.info {
+    font-family: var(--font1);
+}
+
+.footer-brand .logo {
+    margin-left: 40px;
+    transform: scale(1.4);
+}
