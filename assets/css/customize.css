@@ -6,6 +6,12 @@
     --font3: "Outfit", serif;
 }
 
+body,
+nav,
+header {
+    overflow-x: hidden !important;
+}
+
 .hero {
     overflow-x: hidden;
     font-family: var(--font3) !important;

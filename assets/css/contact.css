@@ -303,9 +303,6 @@
     clip-path: polygon(86% 0, 100% 0, 100% 100%, 60% 100%);
 }
 
-ion-icon {
-    color: #fff !important;
-}
 
 .box-btn {
     margin: auto;
